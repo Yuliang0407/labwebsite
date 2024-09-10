@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yes Lab</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css"> <!-- 修改为相对路径 -->
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+			<a class="navbar-brand d-flex align-items-center" href="home">
+				<img src="static/images/logo.png" alt="Lab Logo" width="40" height="40"> <!-- 修改为相对路径 -->
+				<span class="ml-2" style="font-weight: bold;">Yes Lab</span>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="home.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="research.html">Research</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="publications.html">Publications</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="team.html">Team</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="join_us.html">Join Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html">Team's Gallery</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+    <!-- Main Content -->
+    <main class="container mt-5">
+        
+		<!-- Container for Flexbox layout with left side for buttons and right for image -->
+		<div class="container-fluid d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+		    <!-- Left Column: Buttons -->
+		    <div class="col-3 d-flex flex-column sidebar-buttons">
+		       <a href="home" class="btn btn-primary uniform-btn mb-3">Home</a>
+				<a href="research" class="btn btn-primary uniform-btn mb-3">Research</a>
+				<a href="publications" class="btn btn-primary uniform-btn mb-3">Publications</a>
+				<a href="team" class="btn btn-primary uniform-btn mb-3">Team</a>
+				<a href="contact" class="btn btn-primary uniform-btn mb-3">Contact</a>
+				<a href="join_us" class="btn btn-primary uniform-btn mb-3">Join Us</a>
+				<a href="gallery" class="btn btn-primary uniform-btn mb-3">Team's Gallery</a>
+		    </div>
+
+		    <!-- Right Column: Image -->
+		    <div class="col-6 d-flex justify-content-center align-items-center">
+		        <img src="static/images/Figure_used_in_the_Research.png" alt="Lab Research Image" class="img-fluid rounded" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);"> <!-- 修改为相对路径 -->
+		    </div>
+		</div>
+
+		<!-- Contact Section -->
+		<section class="text-center mt-4">
+		    <h2>Contact Us</h2>
+		    <p>Email: ye.hui@ntu.edu.sg</p>
+		    <p>Address: 21 Nanyang Link, Singapore 637371</p>
+		</section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center py-3">
+        <p>&copy; 2024 Yes Lab. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
