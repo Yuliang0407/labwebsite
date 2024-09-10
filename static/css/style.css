@@ -89,10 +89,7 @@ body {
     white-space: nowrap;  /* 防止文本换行 */
 }
 
-/* 确保 "Team's Gallery" 特殊情况也保持一致 */
-.sidebar-buttons .btn.team-gallery {
-    white-space: nowrap;
-}
+
 
 
 /* 卡片样式 */
