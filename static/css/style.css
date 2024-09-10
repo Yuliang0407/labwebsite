@@ -77,15 +77,23 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 80vh;
+    height: auto;
+    align-items: center;  /* 添加对齐居中 */
 }
 
 .sidebar-buttons .btn {
     margin-bottom: 15px;
-    width: 150px;
+    width: 180px;  /* 统一宽度，防止排版错乱 */
     text-align: center;
     padding: 15px;
+    white-space: nowrap;  /* 防止文本换行 */
 }
+
+/* 确保 "Team's Gallery" 特殊情况也保持一致 */
+.sidebar-buttons .btn.team-gallery {
+    white-space: nowrap;
+}
+
 
 /* 卡片样式 */
 .card {
