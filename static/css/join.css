@@ -1,0 +1,16 @@
+.join-page main > section { max-width: 900px; }
+.join-page h2 { margin-bottom: 32px; }
+.join-introduction, .join-section { padding: 28px 0; border-top: 1px solid #dce5de; }
+.join-page h3 { font-size: 1.55rem; font-weight: bold; color: #426c4c; margin: 0 0 20px; }
+.join-page h4 { font-size: 1.15rem; font-weight: bold; color: #426c4c; margin: 24px 0 10px; }
+.join-page p, .join-page li { font-size: 1.05rem; line-height: 1.8; }
+.join-page p { margin-bottom: 16px; }
+.join-page a { color: #426c4c; text-decoration: underline; text-underline-offset: 3px; }
+.join-page .navbar a { text-decoration: none; }
+.join-page ul { padding-left: 24px; margin-bottom: 0; }
+.join-page .join-section > :last-child { margin-bottom: 0; }
+.join-page main { padding-bottom: 40px; }
+@media (max-width: 575px) {
+    .join-page main > section { padding-left: 0; padding-right: 0; }
+    .join-introduction, .join-section { padding: 24px 0; }
+}

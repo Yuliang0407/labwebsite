@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yes Lab</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/home.css">
 </head>
-<body>
+<body class="home-page">
 
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -51,45 +52,69 @@
     </nav>
 
     <!-- Main Content -->
-    <main class="container mt-5">
-        <div class="container-fluid d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <main class="container home-content">
+        <div class="home-overview">
             <!-- Buttons -->
-            <div class="col-3 d-flex flex-column sidebar-buttons">
-                <a href="home.html" class="btn uniform-btn mb-3">Home</a>
-                <a href="news.html" class="btn uniform-btn mb-3">News</a>
-                <a href="research.html" class="btn uniform-btn mb-3">Research</a>
-                <a href="publications.html" class="btn uniform-btn mb-3">Publications</a>
-                <a href="team.html" class="btn uniform-btn mb-3">Team</a>
-                <a href="contact.html" class="btn uniform-btn mb-3">Contact</a>
-                <a href="join_us.html" class="btn uniform-btn mb-3">Join Us</a>
-                <a href="gallery.html" class="btn uniform-btn mb-3">Team's Gallery</a>
+            <div class="home-pi">
+                <a href="ye_hui.html" aria-label="View Dr. Ye Hui’s profile">
+                    <img src="static/images/team_member1.jpeg" alt="Dr. Ye Hui, Principal Investigator of Yes Lab">
+                </a>
+                <h1>Dr. Ye Hui</h1>
+                <p>Principal Investigator of Yes Lab</p>
             </div>
 
             <!-- Image -->
-            <div class="col-6 d-flex justify-content-center align-items-center">
-                <img src="static/images/Figure_used_in_the_Research.png" alt="Lab Research Image" class="img-fluid rounded" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+            <div class="home-image">
+                <img src="static/images/Figure_used_in_the_Research.png" alt="Lab Research Image" class="img-fluid">
             </div>
         </div>
 
+
         <!-- News Section -->
-        <section class="container mt-5">
-            <h2 class="text-center" style="color: #6DA67B;">Latest News</h2>
-            <article class="mt-4">
-                <h3 style="color: #6DA67B;">Lab Funding Announcement</h3>
-                <ul style="font-size: 1.1rem; line-height: 1.8;">
+        <section class="home-news" aria-labelledby="news-title">
+            <h2 id="news-title">Latest News</h2>
+            <article>
+                <h3>Lab Funding Announcement</h3>
+                <ul>
                     <li>Our lab is officially funded by SINGAPORE FOOD STORY (SFS) R&D PROGRAMME 2.0 'SEED' GRANT</li>
                     <li>Our lab is officially funded by National Medical Research Council The Open Fund - Individual Research Grant (OF-IRG)</li>
                 </ul>
-                <p class="text-center mt-3"><a href="news.html" style="color: #6DA67B; text-decoration: none;">View all news →</a></p>
+                <p class="news-more"><a href="news.html">View all news →</a></p>
             </article>
         </section>
 
         <!-- Contact Section -->
-        <section class="text-center mt-5">
-            <h2>Contact Us</h2>
-            <p>Email: ye.hui@ntu.edu.sg</p>
+        <section class="home-contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contact Us</h2>
+            <p>Email: <a href="mailto:ye.hui@ntu.edu.sg">ye.hui@ntu.edu.sg</a></p>
             <p>Address: 21 Nanyang Link, Singapore 637371</p>
         </section>
+    <section class="home-environment" aria-labelledby="research-environment">
+        <div class="environment-heading">
+            <h2 id="research-environment">Research with us in Singapore</h2>
+            <a class="environment-logo" href="https://www.ntu.edu.sg/" target="_blank" rel="noopener noreferrer" aria-label="Visit NTU Singapore">
+                <img src="static/images/NTU%20Logo.png" alt="Nanyang Technological University" width="1698" height="611" loading="lazy">
+            </a>
+        </div>
+        <p>Yes Lab is based in the School of Chemistry, Chemical Engineering and Biotechnology (CCEB) at Nanyang Technological University, Singapore (NTU Singapore).</p>
+        <div class="environment-photos">
+            <figure>
+                <img src="static/images/ntu-hive.jpg" alt="The Hive learning hub at NTU Singapore" loading="lazy" width="1440" height="600">
+                <figcaption>The Hive, NTU Singapore. Photo: <a href="https://www.ntu.edu.sg/about-us" target="_blank" rel="noopener noreferrer">NTU Singapore</a>.</figcaption>
+            </figure>
+            <figure>
+                <img src="static/images/ntu-cceb.jpg" alt="Researcher working in a laboratory, from the CCEB website" loading="lazy" width="5783" height="3855">
+                <figcaption>Research at CCEB. Photo: <a href="https://www.ntu.edu.sg/cceb" target="_blank" rel="noopener noreferrer">NTU CCEB</a>.</figcaption>
+            </figure>
+        </div>
+        <h3>About NTU Singapore</h3>
+        <p>NTU is a research-intensive public university with disciplines spanning science, engineering, business, humanities, arts, social sciences, education and medicine. Its interdisciplinary environment brings together researchers with different perspectives and expertise.</p>
+        <h3>About CCEB</h3>
+        <p>CCEB brings chemistry, chemical engineering and biotechnology together in one interdisciplinary school. It connects science and engineering through education and research, providing a setting for work across molecular science, biological systems and their applications.</p>
+        <h3>Our location</h3>
+        <p>We are situated on NTU’s campus in Singapore. Our address is 21 Nanyang Link, Singapore 637371.</p>
+        <p class="mb-0">Learn more about <a href="https://www.ntu.edu.sg/about-us" target="_blank" rel="noopener noreferrer">NTU Singapore</a> and <a href="https://www.ntu.edu.sg/cceb" target="_blank" rel="noopener noreferrer">CCEB</a>.</p>
+    </section>
     </main>
 
     <!-- Footer -->
@@ -97,8 +122,8 @@
         <p>&copy; 2025 Yes Lab. All rights reserved.</p>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="static/vendor/jquery.slim.min.js"></script>
+    <script src="static/vendor/popper.min.js"></script>
+    <script src="static/vendor/bootstrap.min.js"></script>
 </body>
 </html>

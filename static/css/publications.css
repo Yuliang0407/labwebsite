@@ -1,0 +1,17 @@
+.publications-page .card img { display: block; }
+.publications-page .card-body { padding: 24px; }
+.publications-page .selected-publications { margin-top: 56px; }
+.publications-page .publication-year { color: #426c4c; font-size: 1.5rem; margin: 32px 0 20px; padding-bottom: 10px; border-bottom: 1px solid #dce5de; }
+.publications-page .selected-publications h2 { margin-bottom: 24px; }
+.publications-page .publication-title-link { color: #426c4c; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.publications-page .publication-title-link:hover { color: #244b31; }
+.publications-page .publication-title-link:focus-visible { outline: 3px solid #426c4c; outline-offset: 4px; }
+.publication-image-button { display: block; border: 0; background: transparent; padding: 0; max-width: 100%; cursor: zoom-in; }
+.publication-image-button:focus-visible { outline: 3px solid #426c4c; outline-offset: 4px; }
+#publication-image-viewer { width: fit-content; max-width: 94vw; max-height: 94vh; margin: auto; padding: 20px; border: 0; border-radius: 12px; background: white; overflow: auto; }
+#publication-image-viewer::backdrop { background: rgba(0,0,0,.78); }
+#publication-image-viewer figure { margin: 0; }
+#publication-image-viewer img { display: block; max-width: 100%; width: auto; height: auto; max-height: 74vh; margin: 12px auto; object-fit: contain; }
+#publication-image-viewer figcaption { max-width: 900px; font-size: .95rem; color: #333; }
+.image-viewer-close { display: block; margin-left: auto; background: #426c4c; color: white; border: 0; border-radius: 6px; padding: 8px 16px; cursor: pointer; }
+body:has(#publication-image-viewer[open]) { overflow: hidden; }

@@ -1,0 +1,4 @@
+.team-group { margin-top: 40px; padding-top: 28px; border-top: 1px solid #dce5de; }
+.team-group > h3 { color: #426c4c; font-size: 1.65rem; font-weight: bold; margin-bottom: 24px; text-align: center; }
+.team-group[aria-label="Principal Investigator"] > .row { justify-content: center; }
+.team-group .card { height: calc(100% - 20px); }
