@@ -15,7 +15,6 @@
 .home-image img { width: auto; max-width: 100%; height: var(--overview-image-height); object-fit: contain; border-radius: 14px; box-shadow: 0 6px 24px rgba(0,0,0,.1); }
 .home-news { margin-top: 56px; padding: 32px; background: white; border: 1px solid #e0e7e1; border-radius: 14px; }
 .home-page h2 { font-size: 1.8rem; text-align: left; margin-bottom: 20px; }
-.home-news h3 { font-size: 1.25rem; color: #426c4c; margin-bottom: 16px; }
 .home-news ul { padding-left: 22px; line-height: 1.8; }
 .home-news li { margin-bottom: 12px; }
 .home-page .news-more { margin: 20px 0 0; font-size: 1rem; }

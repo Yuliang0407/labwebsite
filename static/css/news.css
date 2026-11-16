@@ -1,0 +1,26 @@
+.news-update h3 { font-size: 1.25rem; color: #426c4c; margin-bottom: 16px; }
+.news-update {
+    padding: 20px;
+    background: #f8faf8;
+    border: 1px solid #dce5de;
+    border-radius: 10px;
+}
+.news-update + .news-update { margin-top: 16px; }
+.news-update > :last-child { margin-bottom: 0; }
+.news-update-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 8px 16px;
+    margin-bottom: 12px;
+}
+.news-update-header h3 { flex: 1 1 18rem; margin: 0; }
+.news-date {
+    margin-left: auto;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: #e5efe7;
+    color: #35563d;
+    font-size: .85rem;
+    font-weight: 600;
+}
